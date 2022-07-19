@@ -138,19 +138,19 @@ Validate that the value of the C.T.D. course
 
 
 Fill in the fields of the “Dados para inscrição” form
-  Input Text                      ${CTD_NOME_BOX}          Rafael
-  Input Text                      ${CTD_SOBRENOME_BOX}     Martínez
-  Input Text                      ${CTD_EMAIL_BOX}         rafaelmartinez.qa@gmail.com
-  Input Text                      ${CTD_DDD_BOX}           12
-  Input Text                      ${CTD_TELEFONE_BOX}      981787456
+  Input Text                      ${CTD_NOME_BOX}          Roberta
+  Input Text                      ${CTD_SOBRENOME_BOX}     da Silva
+  Input Text                      ${CTD_EMAIL_BOX}         robertadasilva0114.rds@gmail.com
+  Input Text                      ${CTD_DDD_BOX}           11
+  Input Text                      ${CTD_TELEFONE_BOX}      988250987
   Click Element                   ${CTD_TERMOS_BOX} 
   
 
 Fill in the fields of the “QUERO MINHA BOLSA” form
-  Input Text                      ${QMB_NOME_BOX}          Rafael
-  Input Text                      ${QMB_SOBRENOME_BOX}     Martínez
-  Input Text                      ${QMB_EMAIL_BOX}         rafaelmartinez.qa@gmail.com
-  Input Text                      ${QMB_CELULAREDDD_BOX}   12981787456
+  Input Text                      ${QMB_NOME_BOX}          Roberta
+  Input Text                      ${QMB_SOBRENOME_BOX}     da Silva
+  Input Text                      ${QMB_EMAIL_BOX}         robertadasilva0114.rds@gmail.com
+  Input Text                      ${QMB_CELULAREDDD_BOX}   11988250987
   Click Element                   ${QMB_ESTADO_BOX}
   Click Element                   xpath=//*[@id="ZGczPPDExPE6xndDZ05KhIgLkrMZSfbL"]/option[25]
   Click Element                   ${QMB_COR_BOX}
